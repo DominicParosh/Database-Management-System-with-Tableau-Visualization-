@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Epic Gaming Data Analysis Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="section-container">
+        <h2 class="rating-heading"><img src="images/game.jpg" alt="Game Logo" class="game-logo">Game Average Ratings</h2>
+        <table id="game-ratings-table">
+            <tr>
+                <th>Name</th>
+                <th>Average Rating</th>
+            </tr>
+        </table>
+    </div>
+
+    <div id="hardware-container" class="section-container">
+        <!-- Game hardware info will be loaded here -->
+        <h2 class="gameprice-heading">Game With Highest Price</h2>
+        <div class="flex-container" style="display: flex; align-items: center;">
+            <div class="game-image" style="flex: 1;">
+                <img src="images/FF7R_INTERGRADE_Logo.png" alt="Game Image" style="max-width: 100%; height: auto;">
+            </div>
+        </div>
+    </div>
+
+    <div class="section-container">
+        <h2 class="twitter-heading"><img src="images/Twitter.png" alt="Twitter Logo" class="twitter-logo">Most Followed Twitter Accounts</h2>
+        <table id="twitter-accounts-table">
+            <tr>
+                <th>Twitter Username</th>
+                <th>Followers</th>
+            </tr>
+        </table>
+    </div>
+
+    <div class="section-container">
+        <h2 class="author-heading">Top Authors by Comment Count</h2>
+        <table id="authors-table">
+            <tr>
+                <th>Author</th>
+                <th>Comment Count</th>
+            </tr>
+        </table>
+    </div>
+
+
+    <script src="AverageCriticRating.js"></script>
+    <script src="MostFollowedTwitterAccounts.js"></script>
+    <script src="TopAuthors.js"></script>
+    <script src="gameHardware.js"></script>
+</body>
+</html>
